@@ -28,11 +28,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &tog 1                                                   &mo 3      &kp N6    &kp N7    &kp N8        &kp N9      &kp N0    &kp MINUS
-&kp TAB    &kp DE_Q   &kp DE_W  &kp DE_E  &kp DE_R   &kp DE_T  &none                                                    &none      &kp DE_Z  &kp DE_U  &kp DE_I      &kp DE_O    &kp DE_P  &kp BSLH
-&kp ESC    &kp DE_A   &kp DE_S  &kp DE_D  &kp DE_F   &kp DE_G  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp DE_H  &kp DE_J  &kp DE_K      &kp DE_L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp DE_Y   &kp DE_X  &kp DE_C  &kp DE_V   &kp DE_B                       &kp HOME      &kp PG_UP                        &kp DE_N  &kp DE_M  &kp DE_COMMA  &kp DE_DOT  &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT            &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE            &kp UP    &kp DOWN      &kp LBKT    &kp RBKT  &mo 2
+&kp DE_CARET  &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4  &kp DE_N5  &tog 1                                                   &mo 3      &kp DE_N6  &kp DE_N7  &kp DE_N8     &kp DE_N9   &kp DE_N0         &kp DE_ESZETT
+&kp TAB       &kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T   &none                                                    &none      &kp DE_Z   &kp DE_U   &kp DE_I      &kp DE_O    &kp DE_P          &kp DE_PLUS
+&kp ESC       &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F   &kp DE_G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp DE_H   &kp DE_J   &kp DE_K      &kp DE_L    &kp DE_SEMICOLON  &kp DE_HASH
+&kp LSHFT     &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V   &kp DE_B                        &kp HOME      &kp PG_UP                        &kp DE_N   &kp DE_M   &kp DE_COMMA  &kp DE_DOT  &kp DE_MINUS      &kp RSHFT
+&mo 2         &kp GRAVE  &kp CAPS   &kp LEFT   &kp RIGHT             &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE             &kp UP     &kp DOWN      &kp LBKT    &kp RBKT          &mo 2
             >;
         };
 
